@@ -1,0 +1,13 @@
+{
+  "name": "proforms",
+  "version": "1.0.0",
+  "description": "AJAX form submission to proforms.ng using TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": ["form", "ajax", "typescript", "proforms", "react"],
+  "author": "Precious Adedokun, Onos Ejoor",
+  "license": "MIT"
+}
