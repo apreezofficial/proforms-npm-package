@@ -36,7 +36,7 @@
   <input type="email" name="email" placeholder="Your Email" required />
   <button type="submit">Send</button>
 </form>
-
+```
 ---
 ```
 TypeScript
@@ -49,7 +49,7 @@ prostore("contactForm", {
   onError: (err) => console.error("Error:", err),
 });
 
-
+```
 ---
 ```
 React
@@ -73,7 +73,7 @@ export default function ContactForm() {
     </form>
   );
 }
-
+```
 
 ---
 ```
@@ -99,7 +99,7 @@ onMounted(() => {
 });
 </script>
 
-
+```
 ---
 ```
 Angular
@@ -126,7 +126,7 @@ export class FormComponent implements AfterViewInit {
   }
 }
 
-
+```
 ---
 ```
 PHP (HTML Output with ProStore JavaScript)
@@ -143,7 +143,7 @@ PHP (HTML Output with ProStore JavaScript)
     onError: (msg) => alert("Error: " + msg)
   });
 </script>
-
+```
 
 ---
 ```
@@ -173,9 +173,9 @@ def index():
   });
 </script>
 
-
----
 ```
+---
+
 ProformOptions (API)
 
 Option	Type	Description
