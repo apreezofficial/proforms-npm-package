@@ -1,13 +1,40 @@
 {
   "name": "proforms",
   "version": "1.0.0",
-  "description": "AJAX form submission to proforms.ng using TypeScript",
+  "description": "A robust TypeScript-powered library for AJAX-based form submissions integrated with ProForms.ng APIs. Seamless integration with modern frameworks like React, Vue, and more.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepare": "npm run build"
   },
-  "keywords": ["form", "ajax", "typescript", "proforms", "react"],
-  "author": "Precious Adedokun, Onos Ejoor",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apreezofficial/proforms-npm-package"
+  },
+  "keywords": [
+    "form",
+    "ajax",
+    "typescript",
+    "react",
+    "vue",
+    "nextjs",
+    "proforms",
+    "form-handler",
+    "http-request",
+    "api",
+    "frontend-utils"
+  ],
+  "author": "Precious Adedokun <apreezofficial@gmail.com>, Onos Ejoor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apreezofficial/proforms/issues"
+  },
+  "homepage": "https://proforms.ng",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
 }
