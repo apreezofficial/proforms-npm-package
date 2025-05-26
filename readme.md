@@ -38,7 +38,7 @@
 </form>
 
 ---
-
+```
 TypeScript
 
 import { prostore } from "prostore";
@@ -51,7 +51,7 @@ prostore("contactForm", {
 
 
 ---
-
+```
 React
 
 import { useEffect } from "react";
@@ -76,7 +76,7 @@ export default function ContactForm() {
 
 
 ---
-
+```
 Vue.js (Composition API)
 
 <template>
@@ -101,7 +101,7 @@ onMounted(() => {
 
 
 ---
-
+```
 Angular
 
 import { Component, AfterViewInit } from '@angular/core';
@@ -128,7 +128,7 @@ export class FormComponent implements AfterViewInit {
 
 
 ---
-
+```
 PHP (HTML Output with ProStore JavaScript)
 
 <form id="phpForm">
@@ -146,7 +146,7 @@ PHP (HTML Output with ProStore JavaScript)
 
 
 ---
-
+```
 Python Flask (HTML Template + JS)
 
 # app.py
@@ -175,7 +175,7 @@ def index():
 
 
 ---
-
+```
 ProformOptions (API)
 
 Option	Type	Description
